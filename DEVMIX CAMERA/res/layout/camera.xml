@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <!-- <ImageView
+        android:id="@+id/cameraImgVoltar"
+	    android:layout_margin="10dp"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:adjustViewBounds="true"
+	    android:scaleType="fitCenter"
+	    android:onClick="cameraVoltar_onClick"
+	    android:src="@drawable/voltar" />
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_alignParentRight="true"
+		android:layout_alignParentTop="true"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+        <ImageView
+		    android:layout_margin="10dp"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:adjustViewBounds="true"
+		    android:scaleType="fitCenter"
+		    android:onClick="orientationChange_onClick"
+		    android:src="@drawable/rotate" />
+        <ImageView
+		    android:layout_margin="10dp"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:adjustViewBounds="true"
+		    android:scaleType="fitCenter"
+		    android:onClick="tiraFoto_onClick"
+		    android:src="@drawable/tira_foto" />
+        
+    </LinearLayout>
+    -->
+	<FrameLayout 
+		android:id="@+id/preview" 
+		android:layout_width="match_parent"
+		android:layout_height="match_parent" >
+		
+		<Button android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/buttonClick"
+			android:text="Click"
+			android:layout_gravity="right|bottom" />
+
+	</FrameLayout>
+
+</RelativeLayout>

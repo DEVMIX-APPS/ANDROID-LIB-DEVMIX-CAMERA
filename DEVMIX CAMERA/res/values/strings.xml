@@ -1,0 +1,26 @@
+<resources>
+
+    <string name="app_name">com.alanecher.libs</string>
+	
+	<!-- camera errors -->
+	<string name="error_camera_write_file">Ocorreu um erro ao gravar o arquivo em: %s.</string>
+	<string name="error_camera_mkdir_fail">Não foi possível criar o diretório %s.</string>
+	<string name="error_camera_sd_card_fault">O cartão SD não está presente no aparelho, insira-o.</string>
+	<string name="error_camera_error_destroy">A Camera foi encerrada inesperadamente, tente novamente.</string>
+	<!-- cartão SD nao reconhecido/encontrado -->
+    <string name="error_code19">Ocorreu um erro interno ao abrir a camera, tente novamente. Error code 19.</string>
+    <!-- erro interno ao abrir camera -->
+    <string name="error_code20">A camera já está em uso. Encerre o aplicativo que esta utilizando-a, ou reinicie o aparelho. Error code 20.</string>
+    <!-- só é possível uma instancia de app por camera, ou encerra o processo que esta utilizando ou reinicia o tablet -->
+	
+	<!-- nfc errors -->
+	<string name="error_nfc_tag_readonly">Tag Somente Leitura.</string>
+	<string name="error_nfc_tag_not_space">Tag não possui espaço suficiente para gravação.</string>
+	<string name="sucess_nfc_tag_writed">Informações gravadas com sucesso.</string>
+	<string name="error_nfc_tag_ndef">Não foi possível formatar a tag para NDEF.</string>
+	<string name="error_nfc_tag_support_ndef">Tag não suporta o formato NDEF.</string>
+	<string name="error_nfc_tag_write_error">Ocorreu um erro ao gravar informações na Tag.</string>
+	
+	
+	
+</resources>
