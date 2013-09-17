@@ -17,9 +17,9 @@ import android.util.Log;
 import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.Toast;
-import br.com.devmix.libs.utils.files.FileManager;
 
 import com.devmix.libs.camera.R;
+import com.devmix.libs.utils.files.FileManager;
 /**
  * <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />]
